@@ -1,0 +1,44 @@
+body {
+  background-image: url(Background-images/congruent_outline.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+#name.navbar-brand.pl-5.ml-5 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+#media.card.text-white.bg-secondary.mb-3 {
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+  height: 660px;
+}
+#me {
+  float: left;
+  margin: 30px;
+}
+.bio {
+  color: aliceblue;
+}
+div.jumbotron.mx-auto {
+  position: sticky;
+  width: 78%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: rgba(127, 255, 212, 0.329);
+}
+#projects.jumbotron.mx-auto {
+  width: 100%;
+}
+.card {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+  position: static;
+  height: 500px;
+}
+#contactbox.jumbotron.mx-auto {
+  width: 100%;
+}
