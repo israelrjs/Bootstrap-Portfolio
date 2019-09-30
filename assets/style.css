@@ -1,0 +1,85 @@
+body {
+  background-image: url(/Site/Background-images/congruent_outline.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.navbar.navbar-light.bg-light {
+  background-image: url(/Site/Background-images/congruent_outline.png);
+}
+#name.navbar-brand.pl-5.ml-5 {
+  font-size: 40px;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  color: whitesmoke;
+}
+form {
+  position: relative;
+  display: inline;
+}
+#media.card.text-white.bg-secondary.mb-3 {
+  margin-top: 50px;
+  margin-right: 50px;
+  height: 660px;
+}
+#media {
+  margin-top: 450px;
+  margin-left: 540px;
+  position: absolute;
+  width: 30%;
+}
+#me {
+  border-radius: 50%;
+  float: left;
+
+  margin-bottom: 0px;
+  margin-left: 560px;
+}
+#githublink {
+  margin: 20px;
+}
+#inlink {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.bio {
+  text-align: center;
+  margin-top: 420px;
+  color: aliceblue;
+}
+h5.card-title {
+  text-align: center;
+}
+p.card-text {
+  text-align: center;
+}
+a.btn.btn-primary {
+  margin-left: 33px;
+}
+div.jumbotron.mx-auto {
+  padding-top: 10px;
+  position: sticky;
+  float: left;
+  margin: 50px;
+  margin-top: 10px;
+  background-color: rgba(252, 244, 244, 0);
+}
+#projects.jumbotron.mx-auto {
+  width: 100%;
+}
+.card {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+  position: static;
+  height: 500px;
+}
+#contactbox.jumbotron.mx-auto {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
