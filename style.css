@@ -3,31 +3,59 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
 }
+.navbar.navbar-light.bg-light {
+  background-image: url(Background-images/congruent_outline.png);
+}
 #name.navbar-brand.pl-5.ml-5 {
-  font-size: 30px;
+  font-size: 40px;
+  color: whitesmoke;
   margin: 0;
   padding: 0;
 }
+.nav-item {
+  color: whitesmoke;
+}
 #media.card.text-white.bg-secondary.mb-3 {
-  float: right;
   margin-top: 50px;
   margin-right: 50px;
   height: 660px;
 }
+#media {
+  margin-top: 580px;
+  margin-left: 600px;
+  position: absolute;
+  width: 30%;
+}
 #me {
+  border-radius: 50%;
   float: left;
   margin: 30px;
+  margin-bottom: 50px;
+}
+#githublink {
+  margin: 20px;
+}
+#inlink {
+  margin-left: 10px;
 }
 .bio {
   color: aliceblue;
 }
+h5.card-title {
+  text-align: center;
+}
+p.card-text {
+  text-align: center;
+}
+a.btn.btn-primary {
+  margin-left: 33px;
+}
 div.jumbotron.mx-auto {
   position: sticky;
-  width: 78%;
   float: left;
-  margin-top: 50px;
-  margin-left: 100px;
-  background-color: rgba(127, 255, 212, 0.329);
+  margin: 50px;
+  margin-top: 10px;
+  background-color: rgba(252, 244, 244, 0);
 }
 #projects.jumbotron.mx-auto {
   width: 100%;
@@ -41,4 +69,8 @@ div.jumbotron.mx-auto {
 }
 #contactbox.jumbotron.mx-auto {
   width: 100%;
+}
+h1 {
+  text-align: center;
+  color: white;
 }
