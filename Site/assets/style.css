@@ -1,10 +1,10 @@
 body {
-  background-image: url(../Background-images/congruent_outline.png);
+  background-image: url(/images/congruent_outline.png);
   background-repeat: repeat;
   background-attachment: fixed;
 }
 .navbar.navbar-light.bg-light {
-  background-image: url(../Background-images/congruent_outline.png);
+  background-image: url(/images/congruent_outline.png);
 }
 #name.navbar-brand.pl-5.ml-5 {
   font-size: 40px;
