@@ -1,9 +1,9 @@
 $("#about").click(function() {
-  window.scrollTo(0, 0);
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 $("#portfolio").click(function() {
-  window.scrollTo(0, 680);
+  window.scrollTo({ top: 790, behavior: "smooth" });
 });
 $("#contacts").click(function() {
-  window.scrollTo(0, 2000);
+  window.scrollTo({ top: 1530, behavior: "smooth" });
 });
